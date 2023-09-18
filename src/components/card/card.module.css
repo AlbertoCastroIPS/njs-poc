@@ -1,0 +1,51 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 0.5rem;
+	box-shadow: 0px 1px 5px 1px rgba(220, 220, 220, 0.75);
+	text-decoration: none;
+	color: black;
+}
+
+.card .imageContainer {
+	background-color: rgb(234, 234, 234);
+	border-radius: 0.5rem 0.5rem 0 0;
+	height: 160px;
+	position: relative;
+}
+
+.card .imageContainer img {
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card .imageContainer.empty {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+
+.card .content {
+	padding: 1rem;
+}
+
+.card .description {
+	font-family: sans-serif;
+	--line-height: 1.1rem;
+	max-height: calc(2*var(--line-height));
+	overflow: hidden;
+}
+
+.card .title {
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 1.15rem;
+}
+
+.card .dynamicContent {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 2rem;
+}

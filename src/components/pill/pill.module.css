@@ -1,0 +1,25 @@
+.container {
+	padding: 0.5rem;
+	border: 2px solid #cabfbf;
+	display: flex;
+	flex-direction: row;
+	gap: 0.25rem;
+	align-items: center;
+	font-family: sans-serif;
+	border-radius: 100px;
+}
+
+.container button {
+	background-color: transparent;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.container button:hover {
+	color: #f76363;
+}

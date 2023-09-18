@@ -1,0 +1,25 @@
+.link,
+.link.secondary:hover
+{
+	padding: 1rem;
+	background-color: #0f0f0f;
+	border-radius: 0.5rem;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	border: 1px solid #0f0f0f;
+	transition: 0.5s;
+	display: flex;
+	flex-direction: row;
+	gap: 0.5rem;
+	align-items: center;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.link:hover,
+.link.secondary
+{
+	color: #0f0f0f;
+	background-color: white;
+}

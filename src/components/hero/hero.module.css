@@ -1,0 +1,28 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 450px;
+	background-position: center;
+	background-size: cover;
+}
+
+.heroContent {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #FFF9;
+	padding: 2rem;
+}
+
+.hero .title {
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.hero .description {
+	font-size: 1.5rem;
+	font-weight: normal;
+}

@@ -1,0 +1,21 @@
+.container input {
+	width: 100%;
+	padding: 0.5rem;
+	font-size: 1rem;
+	border-radius: 0.25rem;
+	border: 1px solid #a1a1a1;
+	background-color: transparent;
+}
+
+.container label {
+	text-transform: capitalize;
+	margin-bottom: 0.5rem;
+	margin-top: 1rem;
+	display: block;
+	font-family: sans-serif;
+}
+
+.error {
+	font-family: sans-serif;
+	color: red;
+}

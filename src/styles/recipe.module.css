@@ -1,0 +1,17 @@
+.heroExtra {
+	display: flex;
+	gap: 2rem;
+}
+
+.detailItem {
+	display: flex;
+	align-items: center;
+	font-size: 1.75rem;
+	gap: 0.5rem;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}

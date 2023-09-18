@@ -1,0 +1,23 @@
+.banner h1 {
+	text-align: center;
+}
+
+.banner p {
+	text-align: center;
+	font-size: 1.25rem;
+	font-family: sans-serif;
+}
+
+.banner .links {
+	display: flex;
+	flex-flow: column;
+	gap: 1rem;
+	margin-top: 2rem;
+}
+
+@media only screen and (min-width: 1024px) {
+	.banner .links {
+		flex-direction: row;
+		justify-content: center;
+	}
+}

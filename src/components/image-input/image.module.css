@@ -1,0 +1,39 @@
+.container {
+	border: 1px solid #a1a1a1;
+	margin-top: 1rem;
+
+	padding: 1rem;
+	border-radius: 0.25rem;
+}
+
+.label {
+	text-transform: capitalize;
+	margin-bottom: 0.5rem;
+	display: block;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.image {
+	height: 200px;
+	width: fit-content;
+	object-fit: cover;
+	align-self: center;
+	margin-top: 1rem;
+	border-radius: 0.25rem;
+}
+
+.input {
+	display: none;
+}
+
+.clickHere {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px dashed #d1d1d1;
+	height: 100px;
+}
